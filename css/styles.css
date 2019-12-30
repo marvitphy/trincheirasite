@@ -240,15 +240,12 @@
 
     }
 
-    @media screen and (orientation:landscape) {
+    @media only screen and (orientation:landscape) {
 
         .nav{
             min-height: 18vh;
-
-
         
         }
-
 
 
     }
