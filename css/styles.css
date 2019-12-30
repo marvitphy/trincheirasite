@@ -1,245 +1,259 @@
-@import url('fonts.css');
+    @import url('fonts.css');
 
-html, body{
-    margin: 0%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-    background: url('../bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    html, body{
+        margin: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        background: url('../bg.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
 
-}
+    }
 
-:root{
-    /* CORES TEMA*/
-    --text-gray: #3f4954;
-    /* CORES EM GRADIENTE */
-    --plum: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    :root{
+        /* CORES TEMA*/
+        --text-gray: #3f4954;
+        /* CORES EM GRADIENTE */
+        --plum: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 
-}
-/* CLASSES GLOBAIS*/
-a{
-    text-decoration: none;
-    color: #3f4954;
-}
-.flex-row{
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    color: var(--text-gray);
-}
-
-ul{
-    list-style-type: none;
-}
-
-/* NAVEGAÇÃO*/
-
-.nav{
-    background: white;
-    padding: 0 2rem;
-    height: 0rem;
-    min-height: 11vh;
-    overflow: hidden;
-    transition: height 1s ease-in-out;
-    
-}
-
-
-.nav .nav-menu{
-    justify-content: space-between;
-}
-
-.nav .toggle-collapse{
-    
-    position: absolute;
-    top: 0%;
-    width: 90%;
-    cursor: pointer;
-    display: none;
-    right: 35px; 
-
-}
-.nav .toggle-collapse .toggle-icons{
+    }
+    /* CLASSES GLOBAIS*/
+    a{
+        text-decoration: none;
+        color: #3f4954;
+    }
+    .flex-row{
 
         display: flex;
-        justify-content: flex-end;
-        padding: 1.7rem 0;
-
-}
-.nav .toggle-collapse .toggle-icons i{
-
-        font-size: 1.4rem;
-        color: #2d343b;
-
-}
-
-.collapse{
-    height: 28rem;
-}
-
-.nav .nav-items{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-}
-
-.nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
-    font-size: 1rem;
-    position: relative;
-    font-family: Asap;
-    margin-top: 4px;
-}
-
-.nav .nav-items .nav-link a{
-    transition: 0.1s;
-    
-}
-
-.nav .nav-items .nav-link:hover{
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background: #354f9d;
-    
-}
-.nav .nav-items .nav-link:hover a{
-    color: white;
-    font-size: 17px;
-    letter-spacing: 2px;
-    height: 100%;
-}
-
-.nav .nav-brand a{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    text-decoration: none;
-    display: block;
-    font-family: Tahoma;
-    letter-spacing: 2px;
-    margin-top: 5px;
-    transition: 0.7s;
-}
-
-.nav .nav-brand a:hover{
-    font-size: 1.6rem;
-    padding: 1rem 0;
-    text-decoration: none;
-    display: block;
-    font-family: Tahoma;
-    letter-spacing: 5px;
-    margin-top: 5px;
-}
-
-.nav .social{
-    padding: 1.4rem 0;
-    margin-top: 5px;
-    transition: 1s;
-}
-.nav .social i{
-    padding: 0.2rem ;
-    transition: 0.5s;
-}
-.nav .social i:hover{
-    color: #1d1ade;
-    font-size: 24px;
-    transform: translate(-10px);
-    padding-left: 20px;
-    
-}
-/* NAVEGAÇÃO*/
-
-/* TITULO DO SITE*/ 
-
-.site-title{
-    background-size: cover;
-    height: 110vh;
-    display: inline;
-    justify-content: center;
-    
-}
-.site-title .site-background{
-    padding-top: 5.5rem;
-    text-align: center;
-    color: white;
-    
-    
-}
-
- .site-title h1, h3{
-    margin: 0rem;
-    font-size: 1.35rem;
-    
-    
-}
-
-.site-title h1{
-    font-size: 2.3rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: px;
-}
- .site-title h3{
-    font-family: Tahoma;
-    letter-spacing: 4.5px;
-   
-}
-
-  ::-webkit-scrollbar {
-    width: 3px;
-    height: 15px;
-
-  }
-::-webkit-scrollbar-thumb{
-  background: white;  
-  border-radius: 15px;
-  
-
-}
-
-
-/* TITULO DO SITE*/ 
-
-/* janela de exibição >= 750px*/
-
-@media only screen and (max-width: 750px) {
-    .nav .nav-menu, .nav .nav-items{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: var(--text-gray);
     }
 
-    .nav-link{
-        top: 24px;
-        width: 100%;
-        margin: 0 auto;
-        background: #354f9d;
+    ul{
+        list-style-type: none;
     }
 
-    .nav .social{
-        padding-top: 40px;
-        margin: 0 auto;
-        font-size: 20px;
+    /* NAVEGAÇÃO*/
+
+    .nav{
+        background: white;
+        padding: 0 2rem;
+        height: 0rem;
+        min-height: 11vh;
+        overflow: hidden;
+        transition: height 1s ease-in-out;
+        
     }
 
-    .nav .nav-link a{
-        color: white;
+
+    .nav .nav-menu{
+        justify-content: space-between;
     }
 
     .nav .toggle-collapse{
-        display: initial;
+        
+        position: absolute;
+        top: 0%;
+        width: 90%;
+        cursor: pointer;
+        display: none;
+        right: 35px; 
+
+    }
+    .nav .toggle-collapse .toggle-icons{
+
+            display: flex;
+            justify-content: flex-end;
+            padding: 1.7rem 0;
+
+    }
+    .nav .toggle-collapse .toggle-icons i{
+
+            font-size: 1.4rem;
+            color: #2d343b;
+
+    }
+
+    .collapse{
+        height: 28rem;
+    }
+
+    .nav .nav-items{
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+    }
+
+    .nav .nav-items .nav-link{
+        padding: 1.6rem 1rem;
+        font-size: 1rem;
+        position: relative;
+        font-family: Asap;
+        margin-top: 4px;
+    }
+
+    .nav .nav-items .nav-link a{
+        transition: 0.1s;
+        
+    }
+
+    .nav .nav-items .nav-link:hover{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background: #354f9d;
+        
+    }
+    .nav .nav-items .nav-link:hover a{
+        color: white;
+        font-size: 17px;
+        letter-spacing: 2px;
+        height: 100%;
     }
 
     .nav .nav-brand a{
-        font-size: 1.3rem;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        text-decoration: none;
+        display: block;
+        font-family: Tahoma;
+        letter-spacing: 2px;
+        margin-top: 5px;
+        transition: 0.7s;
+    }
+
+    .nav .nav-brand a:hover{
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        text-decoration: none;
+        display: block;
+        font-family: Tahoma;
+        letter-spacing: 5px;
         margin-top: 5px;
     }
 
+    .nav .social{
+        padding: 1.4rem 0;
+        margin-top: 5px;
+        transition: 1s;
+    }
+    .nav .social i{
+        padding: 0.2rem ;
+        transition: 0.5s;
+    }
+    .nav .social i:hover{
+        color: #1d1ade;
+        font-size: 24px;
+        transform: translate(-10px);
+        padding-left: 20px;
+        
+    }
+    /* NAVEGAÇÃO*/
+
+    /* TITULO DO SITE*/ 
+
+    .site-title{
+        background-size: cover;
+        height: 110vh;
+        display: inline;
+        justify-content: center;
+        
+    }
+    .site-title .site-background{
+        padding-top: 5.5rem;
+        text-align: center;
+        color: white;
+        
+        
+    }
+
+    .site-title h1, h3{
+        margin: 0rem;
+        font-size: 1.35rem;
+        
+        
+    }
+
+    .site-title h1{
+        font-size: 2.3rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: px;
+    }
+    .site-title h3{
+        font-family: Tahoma;
+        letter-spacing: 4.5px;
+    
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px;
+        height: 15px;
+
+    }
+    ::-webkit-scrollbar-thumb{
+    background: white;  
+    border-radius: 15px;
+    
+
+    }
+
+
+    /* TITULO DO SITE*/ 
+
+    /* janela de exibição >= 750px*/
+
+    @media only screen and (max-width: 750px) {
+        .nav .nav-menu, .nav .nav-items{
+            flex-direction: column;
+        }
+
+        .nav-link{
+            top: 24px;
+            width: 100%;
+
+            margin: 0 auto;
+            background: #354f9d;
+        }
+
+        .nav .social{
+            padding-top: 40px;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        .nav .nav-link a{
+            color: white;
+        }
+
+        .nav .toggle-collapse{
+            display: initial;
+        }
+
+        .nav .nav-brand a{
+            font-size: 1.3rem;
+            margin-top: 5px;
+        }
 
 
 
 
-  }
 
-/* janela de exibição >= 750px*/
+    }
+
+    @media screen and (orientation:landscape) {
+
+        .nav{
+            min-height: 18vh;
+
+
+        
+        }
+
+
+
+    }
+
+    /* janela de exibição >= 750px*/
 
 
 
