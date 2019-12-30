@@ -240,15 +240,6 @@
 
     }
 
-    @media only screen and (orientation:landscape) {
-
-        .nav{
-            min-height: 18vh;
-        
-        }
-
-
-    }
 
     /* janela de exibição >= 750px*/
 
