@@ -9,7 +9,13 @@
 
 <url>
   <loc>https://www.trincheira.ml/</loc>
-  <lastmod>2020-01-01T23:13:08+00:00</lastmod>
+  <lastmod>2020-01-01T23:21:26+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.trincheira.ml/sobre.html</loc>
+  <lastmod>2020-01-01T23:21:26+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
