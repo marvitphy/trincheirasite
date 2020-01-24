@@ -65,13 +65,14 @@
 
             display: flex;
             justify-content: flex-end;
-            padding: 1.7rem 0;
+            padding-top: 1.7rem;
 
     }
     .nav .toggle-collapse .toggle-icons i{
 
             font-size: 1.4rem;
             color: #2d343b;
+            margin-left:2px;
 
     }
 
@@ -111,6 +112,10 @@
         height: 100%;
     }
 
+    .nav .nav-brand{
+        font-size: 1px;
+    }
+
     .nav .nav-brand a{
         font-size: 1.6rem;
         padding: 1rem 0;
@@ -120,6 +125,7 @@
         letter-spacing: 2px;
         margin-top: 5px;
         transition: 0.7s;
+        
     }
 
     .nav .nav-brand a:hover{
